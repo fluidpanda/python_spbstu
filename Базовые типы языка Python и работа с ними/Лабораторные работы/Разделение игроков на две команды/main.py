@@ -1,3 +1,6 @@
 list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
 
-# TODO Разделите участников на две команды
+list_players_len = len(list_players)
+delimeter = int(list_players_len / 2)
+
+print(list_players[0:delimeter], list_players[delimeter:], sep='\n')

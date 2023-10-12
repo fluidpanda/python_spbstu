@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 66
-    length: 42
+  - offset: 211
+    length: 0
     placeholder_text: '# TODO Разделите участников на две команды'
     initial_state:
       length: 42
       offset: 66
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       # индекс середины
       middle_index = len(list_players) // 2
@@ -35,6 +35,9 @@ files:
     ['Маша', 'Петя', 'Саша']
     ['Оля', 'Кирилл', 'Коля']
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 18:17:51 UTC"
 record: -1
 solution_hidden: true

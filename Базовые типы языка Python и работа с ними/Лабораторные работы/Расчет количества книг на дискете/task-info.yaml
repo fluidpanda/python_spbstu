@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
-    length: 124
+  - offset: 126
+    length: 57
     placeholder_text: |-
       # TODO Найдите количество книг, которое можно разместить на дискете
 
@@ -14,7 +14,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       BYTES_ONE_CHAR = 4  # размер одного символа в байтах
 
@@ -46,6 +46,9 @@ files:
 - name: bytes_table.png
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 18:10:48 UTC"
 record: -1
 solution_hidden: true
