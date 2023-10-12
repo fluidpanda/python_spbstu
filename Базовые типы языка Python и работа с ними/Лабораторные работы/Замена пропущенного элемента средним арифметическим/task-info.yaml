@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 102
-    length: 147
+    length: 203
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
 
