@@ -13,24 +13,24 @@ files:
   visible: true
   placeholders:
   - offset: 99
-    length: 40
+    length: 64
     placeholder_text: "...  # TODO найти полное количество дней"
     initial_state:
       length: 40
       offset: 99
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: total_hours // HOURS_IN_DAY
-  - offset: 148
-    length: 45
+  - offset: 172
+    length: 68
     placeholder_text: "...  # TODO найти оставшееся количество часов"
     initial_state:
       length: 45
       offset: 148
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: total_hours % HOURS_IN_DAY
   text: |
     HOURS_IN_DAY = 24  # количество часов в дне постоянно
@@ -42,5 +42,8 @@ files:
     print("Количество дней =", days)
     print("Оставшееся количество часов =", hours)
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 15:40:35 UTC"
 record: -1
