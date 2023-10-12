@@ -10,7 +10,7 @@ circle_circumference = 2 * PI * radius
 square_perimeter = 4 * side
 square_area = side ** 2
 
-print("Площадь круга:", round(circle_area, 2))
-print("Длина окружности:", round(circle_circumference, 2))
+print("Площадь круга:", round(circle_area, ndigits=2))
+print("Длина окружности:", round(circle_circumference, ndigits=2))
 print("Периметр квадрата:", square_perimeter)
 print("Площадь квадрата:", square_area)

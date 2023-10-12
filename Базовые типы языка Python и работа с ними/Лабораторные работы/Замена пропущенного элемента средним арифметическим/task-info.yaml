@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 102
-    length: 103
+    length: 147
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
 
@@ -13,7 +13,7 @@ files:
       length: 103
       offset: 102
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       index_missing_item = 4
