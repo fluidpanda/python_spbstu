@@ -3,14 +3,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 66
-    length: 42
+  - offset: 65
+    length: 0
     placeholder_text: '# TODO Разделите участников на две команды'
     initial_state:
       length: 42
       offset: 66
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       # индекс середины

@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
-    length: 124
+  - offset: 150
+    length: 0
     placeholder_text: |-
       # TODO Найдите количество книг, которое можно разместить на дискете
 
@@ -13,7 +13,7 @@ files:
       length: 124
       offset: 0
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       BYTES_ONE_CHAR = 4  # размер одного символа в байтах

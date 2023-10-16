@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 64
+  - offset: 70
     length: 192
     placeholder_text: '# TODO Добавьте словарь и замените в нем нулевые значения статисчикой
       посещений'
