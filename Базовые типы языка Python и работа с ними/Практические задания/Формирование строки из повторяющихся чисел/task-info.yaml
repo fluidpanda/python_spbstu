@@ -28,4 +28,7 @@ files:
     0000000000000000000011111111111111111111111111111111111111111111111111222222222222222222222222222222
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 16:26:25 UTC"
 record: -1

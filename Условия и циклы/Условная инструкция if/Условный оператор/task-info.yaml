@@ -11,7 +11,7 @@ files:
       offset: 12
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "True"
   text: |
     condition = ...  # TODO поочередно подставьте значения True и False
@@ -27,6 +27,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

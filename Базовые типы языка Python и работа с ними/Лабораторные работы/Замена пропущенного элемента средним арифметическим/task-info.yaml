@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 107
-    length: 0
+  - offset: 889
+    length: 37
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
 
@@ -42,6 +42,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 16 Oct 2023 10:05:55 UTC"
+  time: "Thu, 19 Oct 2023 15:12:36 UTC"
 record: -1
 solution_hidden: true

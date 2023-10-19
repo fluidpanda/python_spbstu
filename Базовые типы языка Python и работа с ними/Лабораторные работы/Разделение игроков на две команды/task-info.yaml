@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 65
+  - offset: 211
     length: 0
     placeholder_text: '# TODO Разделите участников на две команды'
     initial_state:
@@ -36,5 +36,8 @@ files:
     ['Оля', 'Кирилл', 'Коля']
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 18:17:51 UTC"
 record: -1
 solution_hidden: true

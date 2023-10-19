@@ -30,4 +30,7 @@ files:
     ['Письмо 5', 'Письмо 4', 'Письмо 3', 'Письмо 2', 'Письмо 1']
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 12 Oct 2023 16:32:53 UTC"
 record: -1
