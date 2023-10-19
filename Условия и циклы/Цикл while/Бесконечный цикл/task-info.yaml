@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 36
-    length: 56
+    length: 105
     placeholder_text: "...  # TODO Запросите первое и последующие числа в цикле"
     initial_state:
       length: 56
       offset: 36
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '"stop"'
   text: |
     total = 0
@@ -30,7 +30,9 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Thu, 19 Oct 2023 16:02:09 UTC"
 record: -1
 solution_hidden: true
 post_submission_on_open: true

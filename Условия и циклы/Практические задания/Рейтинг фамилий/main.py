@@ -1,3 +1,6 @@
+from icecream import ic
+
+
 surname_list = [  # список фамилий Санкт-Петербурга
     "Иванов",
     "Васильев",
@@ -27,3 +30,6 @@ surname_list = [  # список фамилий Санкт-Петербурга
 ]
 
 # TODO распечатать фамилии и их номера
+
+for position, surname in enumerate(surname_list, start=1):
+    print(f"{position:2} {surname}")
