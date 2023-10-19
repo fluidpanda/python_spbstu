@@ -4,34 +4,34 @@ files:
   visible: true
   placeholders:
   - offset: 9
-    length: 31
+    length: 2
     placeholder_text: "...  # TODO Введите любое число"
     initial_state:
       length: 31
       offset: 9
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 25
-  - offset: 45
-    length: 53
+  - offset: 16
+    length: 71
     placeholder_text: "...:  # TODO проверьте, что число является счастливым"
     initial_state:
       length: 53
       offset: 45
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "number in [7, 13, 21]:"
-  - offset: 135
-    length: 53
+  - offset: 124
+    length: 73
     placeholder_text: "...:  # TODO проверьте, что число попадает в диапазон"
     initial_state:
       length: 53
       offset: 135
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '1 <= number <= 100:'
   text: |
     number = ...  # TODO Введите любое число
@@ -46,6 +46,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Thu, 19 Oct 2023 15:42:29 UTC"
 record: -1
 post_submission_on_open: true

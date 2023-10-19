@@ -4,18 +4,18 @@ files:
   visible: true
   placeholders:
   - offset: 22
-    length: 60
+    length: 63
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 22
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 5 > 10)
-  - offset: 104
-    length: 60
+  - offset: 107
+    length: 64
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -23,10 +23,10 @@ files:
       offset: 104
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 == 10)
-  - offset: 186
-    length: 60
+  - offset: 193
+    length: 63
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -34,21 +34,21 @@ files:
       offset: 186
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 != 5)
-  - offset: 289
-    length: 60
+  - offset: 299
+    length: 64
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 289
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 5 <= 10)
-  - offset: 381
-    length: 60
+  - offset: 395
+    length: 63
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -56,18 +56,18 @@ files:
       offset: 381
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5 <= 5)
-  - offset: 462
-    length: 60
+  - offset: 479
+    length: 63
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 462
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 5 == 5)
   text: |
     print("5 больше 10?", ...)  # TODO записать условие с помощью операторов сравнения
@@ -94,5 +94,8 @@ files:
     5 меньше или равно 5? True
     5 равно 5? True
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 19 Oct 2023 15:35:53 UTC"
 record: -1

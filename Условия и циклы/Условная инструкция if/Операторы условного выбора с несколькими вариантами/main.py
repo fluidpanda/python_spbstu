@@ -16,3 +16,6 @@ elif month in autumn_months:
 elif month in winter_months:
     print("Зима")  # Если month находится в списке зимних месяцев, выводим "Зима"
 # TODO Добавьте блок else c обработкой некорректного номера месяца
+else:
+    print("Некорректный номер месяца")
+
