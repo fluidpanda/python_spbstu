@@ -3,8 +3,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 889
-    length: 37
+  - offset: 102
+    length: 103
     placeholder_text: |-
       # TODO заменить значение пропущенного элемента средним арифметическим
 
@@ -13,7 +13,7 @@ files:
       length: 103
       offset: 102
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       index_missing_item = 4
@@ -40,8 +40,5 @@ files:
     Измененный список: [2, -93, -2, 8, -15.65, -44, -1, -85, -14, 90, -22, -90, -100, -8, 38, -92, -45, 67, 53, 25]
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 15:12:36 UTC"
 record: -1
 solution_hidden: true
