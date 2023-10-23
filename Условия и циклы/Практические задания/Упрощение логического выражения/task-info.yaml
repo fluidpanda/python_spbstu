@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 125
-    length: 126
+    length: 122
     placeholder_text: "is_active == True and is_blocked != False:  # TODO Избавьте\
       сь от операторов сравния при работе с логическими типами данных"
     initial_state:
       length: 122
       offset: 125
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'is_active and not is_blocked:'
   text: |
@@ -27,7 +27,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: "Thu, 19 Oct 2023 16:06:16 UTC"
 record: -1
 post_submission_on_open: true

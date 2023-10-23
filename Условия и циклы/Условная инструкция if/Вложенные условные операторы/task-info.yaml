@@ -11,7 +11,7 @@ files:
       length: 61
       offset: 105
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if inside_condition:
@@ -36,7 +36,4 @@ files:
     Ещё один условный оператор
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 15:33:05 UTC"
 record: -1

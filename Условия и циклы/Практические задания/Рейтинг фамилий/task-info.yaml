@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 463
+  - offset: 437
     length: 38
     placeholder_text: '# TODO распечатать фамилии и их номера'
     initial_state:
@@ -79,7 +79,4 @@ files:
     25 Соловьёв
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 16:45:57 UTC"
 record: -1

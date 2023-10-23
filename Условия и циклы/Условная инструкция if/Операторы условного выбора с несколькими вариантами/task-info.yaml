@@ -45,7 +45,4 @@ files:
     Некорректный номер месяца
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 15:41:04 UTC"
 record: -1

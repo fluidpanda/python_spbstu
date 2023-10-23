@@ -4,18 +4,18 @@ files:
   visible: true
   placeholders:
   - offset: 22
-    length: 63
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 22
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 5 > 10)
-  - offset: 107
-    length: 64
+  - offset: 104
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -25,8 +25,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 5 == 10)
-  - offset: 193
-    length: 63
+  - offset: 186
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -36,19 +36,19 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 5 != 5)
-  - offset: 299
-    length: 64
+  - offset: 289
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 289
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 5 <= 10)
-  - offset: 395
-    length: 63
+  - offset: 381
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
@@ -58,15 +58,15 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: 5 <= 5)
-  - offset: 479
-    length: 63
+  - offset: 462
+    length: 60
     placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
       я"
     initial_state:
       length: 60
       offset: 462
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 5 == 5)
   text: |
@@ -95,7 +95,4 @@ files:
     5 равно 5? True
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 15:35:53 UTC"
 record: -1

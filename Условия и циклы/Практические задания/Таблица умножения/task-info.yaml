@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 60
+    length: 36
     placeholder_text: '# TODO Распечатать таблицу умножения'
     initial_state:
       length: 36
@@ -39,7 +39,4 @@ files:
     18 27 36 45 54 63 72 81
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 19 Oct 2023 17:10:52 UTC"
 record: -1

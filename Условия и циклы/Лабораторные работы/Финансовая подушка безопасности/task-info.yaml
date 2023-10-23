@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 779
+    length: 621
     placeholder_text: |-
       money_capital = 20000  # Подушка безопасности
       salary = 5000  # Ежемесячная зарплата
@@ -27,7 +27,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: |-
       money_capital = 20000  # Подушка безопасности
       salary = 5000  # Ежемесячная зарплата
@@ -56,13 +56,9 @@ files:
 
     print("Количество месяцев, которое можно протянуть без долгов:", ...)
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Thu, 19 Oct 2023 18:00:10 UTC"
-  expected: |
-    Количество месяцев, которое можно протянуть без долгов: 8
-  actual: |
-    Количество месяцев, которое можно протянуть без долгов: 9
+  message: Congratulations!
+  time: "Mon, 23 Oct 2023 13:34:06 UTC"
 record: -1
 solution_hidden: true

@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 36
-    length: 105
+    length: 56
     placeholder_text: "...  # TODO Запросите первое и последующие числа в цикле"
     initial_state:
       length: 56
       offset: 36
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '"stop"'
   text: |
@@ -31,8 +31,6 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: "Thu, 19 Oct 2023 16:02:09 UTC"
 record: -1
 solution_hidden: true
 post_submission_on_open: true
