@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 621
+    length: 701
     placeholder_text: |-
       money_capital = 20000  # Подушка безопасности
       salary = 5000  # Ежемесячная зарплата

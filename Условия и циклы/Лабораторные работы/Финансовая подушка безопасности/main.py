@@ -15,6 +15,7 @@ while money_capital > 0:
         money_capital += salary
         month += 1
         spend *= 1 + increase
+        ic(money_capital, spend, month)
     else:
         money_capital -= spend
         money_capital += salary
@@ -22,6 +23,7 @@ while money_capital > 0:
             break
         month += 1
         spend *= 1 + increase
+        ic(money_capital, spend, month)
 
 
 print("Количество месяцев, которое можно протянуть без долгов:", month)
