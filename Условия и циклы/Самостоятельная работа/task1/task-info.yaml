@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 95
-    length: 42
+    length: 43
     placeholder_text: "...  # TODO подставить результат выражения"
     initial_state:
       length: 42
       offset: 95
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "True"
   text: |
     src = not False and True or False and not True
@@ -30,5 +30,8 @@ files:
   text: |
     True
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 25 Oct 2023 16:08:48 UTC"
 record: -1

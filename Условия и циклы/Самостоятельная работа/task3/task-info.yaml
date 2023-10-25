@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 14
-    length: 359
+    length: 213
     placeholder_text: |-
       # TODO переписать через if-elif-else
       if x > 0:
@@ -21,8 +21,8 @@ files:
       length: 359
       offset: 14
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if x > 0 and y > 0:  # x > 0, y > 0
           print("Первая четверть")
@@ -56,5 +56,8 @@ files:
   text: |
     Четвертая четверть
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 25 Oct 2023 15:46:50 UTC"
 record: -1

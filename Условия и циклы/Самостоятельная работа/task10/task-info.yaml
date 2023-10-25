@@ -11,11 +11,11 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       count_even = 0  # количество четных чисел
       count_odd = 0  # количество нечетных чисел
-  - offset: 106
+  - offset: 148
     length: 90
     placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
       количество четных и нечетных'
@@ -24,22 +24,22 @@ files:
       offset: 106
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for value in list_:  # перебираем все числа
           if value % 2 == 0:
               count_even += 1
           else:
               count_odd += 1
-  - offset: 198
-    length: 33
+  - offset: 344
+    length: 34
     placeholder_text: '# TODO вывести каких чисел больше'
     initial_state:
       length: 33
       offset: 198
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if count_even > count_odd:
           print('Четных чисел больше')
@@ -64,5 +64,8 @@ files:
   text: |
     Четных чисел больше
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 25 Oct 2023 16:14:29 UTC"
 record: -1
