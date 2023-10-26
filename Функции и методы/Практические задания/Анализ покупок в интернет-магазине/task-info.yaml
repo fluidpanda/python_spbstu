@@ -4,29 +4,29 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 41
+    length: 65
     placeholder_text: '# TODO Напишите функцию find_common_items'
     initial_state:
       length: 41
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def find_common_items(last_week_purchases, current_week_purchases):
           common_purchases = list(set(last_week_purchases).intersection(current_week_purchases))
           common_purchases.sort()
           return common_purchases
-  - offset: 168
-    length: 63
+  - offset: 450
+    length: 114
     placeholder_text: "print(f\"Общие товары: {...}\")  # TODO Распечатайте общие\
       \ товары"
     initial_state:
       length: 63
       offset: 168
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "print(f\"Общие товары: {find_common_items(last_week_items,\
       \ current_week_items)}\")"
   text: |
@@ -46,5 +46,8 @@ files:
   text: |
     Общие товары: ['ноутбук', 'флешка']
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 16:29:57 UTC"
 record: -1

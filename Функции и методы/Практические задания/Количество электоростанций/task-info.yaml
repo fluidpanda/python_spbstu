@@ -4,15 +4,15 @@ files:
   visible: true
   placeholders:
   - offset: 65
-    length: 91
+    length: 86
     placeholder_text: "...  # TODO Найдите количество электростанций, мощность кот\
       орых превышает заданное значение"
     initial_state:
       length: 91
       offset: 65
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       count = 0
           for powerplant in powerplants_list:
@@ -20,15 +20,15 @@ files:
                   count += 1
 
           return count
-  - offset: 411
-    length: 55
+  - offset: 546
+    length: 108
     placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
     initial_state:
       length: 55
       offset: 411
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: "count_powerful_powerplants(powerplants, threshold_power)"
   text: |
     def count_powerful_powerplants(powerplants_list, threshold):
@@ -56,5 +56,8 @@ files:
   text: |
     Количество электростанций, мощность которых превышает заданное значение: 2
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 16:14:46 UTC"
 record: -1

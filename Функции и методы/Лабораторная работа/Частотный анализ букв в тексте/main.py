@@ -1,7 +1,27 @@
-# TODO  Напишите функцию count_letters
+from icecream import ic
 
 
-# TODO Напишите функцию calculate_frequency
+def count_letters(text):
+    text = text.lower()
+    frequency = {}
+    for letter in set(text):
+        if letter.isalpha():
+            frequency[letter] = text.count(letter)
+    ic(frequency, len(frequency))
+    return frequency
+
+
+def calculate_frequency(dictionary):
+    letters_count = sum(dictionary.values())
+    frequency = {}
+    for value in dictionary:
+        frequency[value] = round(dictionary[value] / letters_count, ndigits=2)
+
+    result = list()
+    for item in frequency:
+        result.append(f'{item}: {frequency[item]}\n')
+
+    return ''.join(result)
 
 
 main_str = """
@@ -40,4 +60,5 @@ main_str = """
 Свои мне сказки говорил.
 """
 
-# TODO Распечатайте в столбик букву и её частоту в тексте
+
+print(calculate_frequency(count_letters(main_str)))
