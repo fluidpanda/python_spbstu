@@ -2,7 +2,7 @@
 def count_letters(text):
     text = text.lower()
     frequency = {}
-    for letter in frozenset(text):
+    for letter in set(text):
         if letter.isalpha():
             frequency[letter] = text.count(letter)
     return frequency
