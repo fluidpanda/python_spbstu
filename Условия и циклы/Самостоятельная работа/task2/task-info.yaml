@@ -4,18 +4,18 @@ files:
   visible: true
   placeholders:
   - offset: 36
-    length: 66
+    length: 63
     placeholder_text: "...  # TODO записать условие, что только первое число меньш\
       е 45"
     initial_state:
       length: 63
       offset: 36
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: a < 45 and b >= 45 and c >= 45
-  - offset: 117
-    length: 66
+  - offset: 114
+    length: 63
     placeholder_text: "...  # TODO записать условие, что только второе число меньш\
       е 45"
     initial_state:
@@ -25,8 +25,8 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: a >= 45 and b < 45 and c >= 45
-  - offset: 198
-    length: 66
+  - offset: 192
+    length: 63
     placeholder_text: "...  # TODO записать условие, что только третье число меньш\
       е 45"
     initial_state:
@@ -36,15 +36,15 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: a >= 45 and b >= 45 and c < 45
-  - offset: 269
-    length: 124
+  - offset: 260
+    length: 86
     placeholder_text: "...:  # TODO объединить три условия с помощью нужного логич\
       еского оператора and или or"
     initial_state:
       length: 86
       offset: 260
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: 'condition_1 or condition_2 or condition_3:'
   text: |
@@ -68,7 +68,4 @@ files:
     Одно из чисел меньше 45
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 25 Oct 2023 15:42:56 UTC"
 record: -1

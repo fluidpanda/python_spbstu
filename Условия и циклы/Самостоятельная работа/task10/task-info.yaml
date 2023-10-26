@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: |-
       count_even = 0  # количество четных чисел
       count_odd = 0  # количество нечетных чисел
-  - offset: 148
+  - offset: 106
     length: 90
     placeholder_text: '# TODO с помощью одного цикла перебрать все числа и посчитать
       количество четных и нечетных'
@@ -31,8 +31,8 @@ files:
               count_even += 1
           else:
               count_odd += 1
-  - offset: 344
-    length: 34
+  - offset: 198
+    length: 33
     placeholder_text: '# TODO вывести каких чисел больше'
     initial_state:
       length: 33
@@ -65,7 +65,4 @@ files:
     Четных чисел больше
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Wed, 25 Oct 2023 16:14:29 UTC"
 record: -1

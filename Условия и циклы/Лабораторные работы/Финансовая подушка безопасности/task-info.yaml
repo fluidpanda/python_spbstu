@@ -12,7 +12,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 701
+    length: 307
     placeholder_text: |-
       money_capital = 20000  # Подушка безопасности
       salary = 5000  # Ежемесячная зарплата
@@ -26,7 +26,7 @@ files:
       length: 307
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       money_capital = 20000  # Подушка безопасности
@@ -59,6 +59,6 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: "Mon, 23 Oct 2023 13:34:06 UTC"
+  time: "Thu, 26 Oct 2023 15:04:21 UTC"
 record: -1
 solution_hidden: true
