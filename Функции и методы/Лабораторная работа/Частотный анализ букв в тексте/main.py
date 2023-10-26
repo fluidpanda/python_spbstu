@@ -1,13 +1,10 @@
-from icecream import ic
-
 
 def count_letters(text):
     text = text.lower()
     frequency = {}
-    for letter in set(text):
+    for letter in frozenset(text):
         if letter.isalpha():
             frequency[letter] = text.count(letter)
-    ic(frequency, len(frequency))
     return frequency
 
 

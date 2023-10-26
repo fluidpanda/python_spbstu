@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 23
+    length: 0
     placeholder_text: '# TODO  Напишите функцию count_letters'
     initial_state:
       length: 38
@@ -24,7 +24,7 @@ files:
                   else:
                       letter_count[char] = 1
           return letter_count
-  - offset: 258
+  - offset: 205
     length: 1
     placeholder_text: '# TODO Напишите функцию calculate_frequency'
     initial_state:
@@ -37,7 +37,7 @@ files:
       \ = sum(letter_count.values())\n    \n    letter_frequency = {}\n    for current_letter,\
       \ count in letter_count.items():\n        letter_frequency[current_letter] =\
       \ count / total_letters\n        \n    return letter_frequency"
-  - offset: 1513
+  - offset: 1460
     length: 0
     placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
     initial_state:
@@ -137,7 +137,7 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: "Thu, 26 Oct 2023 17:59:08 UTC"
+  time: "Thu, 26 Oct 2023 18:04:42 UTC"
   expected: |
     у: 0.03
     л: 0.04
@@ -170,36 +170,36 @@ feedback:
     ж: 0.01
     щ: 0.00
   actual: |+
-    щ: 0.0
-    р: 0.05
-    й: 0.03
-    в: 0.04
-    и: 0.06
-    а: 0.08
-    ш: 0.0
-    с: 0.04
-    з: 0.02
-    д: 0.05
-    ж: 0.01
-    л: 0.04
-    у: 0.03
-    б: 0.02
-    ю: 0.0
-    х: 0.02
-    е: 0.07
-    ё: 0.02
-    ц: 0.01
-    о: 0.08
-    ы: 0.02
     к: 0.03
-    ч: 0.01
+    й: 0.03
     г: 0.01
+    а: 0.08
+    и: 0.06
+    ь: 0.01
+    ё: 0.02
+    в: 0.04
+    ы: 0.02
+    ж: 0.01
+    е: 0.07
+    о: 0.08
+    т: 0.07
     м: 0.05
     п: 0.02
+    с: 0.04
+    з: 0.02
+    ц: 0.01
+    ч: 0.01
+    ю: 0.0
+    л: 0.04
+    б: 0.02
     н: 0.06
-    т: 0.07
+    у: 0.03
+    щ: 0.0
+    х: 0.02
+    д: 0.05
+    р: 0.05
+    ш: 0.0
     я: 0.02
-    ь: 0.01
 
 record: -1
 solution_hidden: true
