@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 0
+  - offset: 24
     length: 0
     placeholder_text: '# TODO  Напишите функцию count_letters'
     initial_state:
       length: 38
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       def count_letters(text):
           lower_text = text.lower()
@@ -24,7 +24,7 @@ files:
                   else:
                       letter_count[char] = 1
           return letter_count
-  - offset: 199
+  - offset: 353
     length: 1
     placeholder_text: '# TODO Напишите функцию calculate_frequency'
     initial_state:
@@ -32,20 +32,20 @@ files:
       offset: 41
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: "def calculate_frequency(letter_count):\n    total_letters\
       \ = sum(letter_count.values())\n    \n    letter_frequency = {}\n    for current_letter,\
       \ count in letter_count.items():\n        letter_frequency[current_letter] =\
       \ count / total_letters\n        \n    return letter_frequency"
-  - offset: 1454
-    length: 0
+  - offset: 1765
+    length: 96
     placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
     initial_state:
       length: 57
       offset: 999
     initialized_from_dependency: false
-    selected: false
-    status: Failed
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       count_dict = count_letters(main_str)
       frequency_dict = calculate_frequency(count_dict)
@@ -134,72 +134,9 @@ files:
     ж: 0.01
     щ: 0.00
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: "Thu, 26 Oct 2023 18:07:59 UTC"
-  expected: |
-    у: 0.03
-    л: 0.04
-    к: 0.03
-    о: 0.08
-    м: 0.05
-    р: 0.05
-    ь: 0.01
-    я: 0.02
-    д: 0.05
-    б: 0.02
-    з: 0.02
-    е: 0.07
-    ё: 0.02
-    н: 0.06
-    ы: 0.02
-    й: 0.03
-    а: 0.08
-    т: 0.07
-    ц: 0.01
-    п: 0.02
-    и: 0.06
-    ч: 0.01
-    ю: 0.00
-    в: 0.04
-    с: 0.04
-    х: 0.02
-    г: 0.01
-    ш: 0.00
-    ж: 0.01
-    щ: 0.00
-  actual: |+
-    а: 0.08
-    т: 0.07
-    д: 0.05
-    и: 0.06
-    с: 0.04
-    р: 0.05
-    б: 0.02
-    в: 0.04
-    з: 0.02
-    у: 0.03
-    о: 0.08
-    я: 0.02
-    ц: 0.01
-    е: 0.07
-    й: 0.03
-    х: 0.02
-    н: 0.06
-    ж: 0.01
-    м: 0.05
-    ы: 0.02
-    ю: 0.0
-    п: 0.02
-    ь: 0.01
-    ш: 0.0
-    л: 0.04
-    ё: 0.02
-    к: 0.03
-    ч: 0.01
-    г: 0.01
-    щ: 0.0
-
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 18:25:54 UTC"
 record: -1
 solution_hidden: true

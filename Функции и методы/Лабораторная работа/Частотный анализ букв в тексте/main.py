@@ -1,10 +1,17 @@
+from time import time
+
+
 
 def count_letters(text):
     text = text.lower()
     frequency = {}
-    for letter in set(text):
+    for letter in text:
         if letter.isalpha():
-            frequency[letter] = text.count(letter)
+            # frequency[letter] = text.count(letter)
+            if frequency.get(letter):
+                frequency[letter] += 1
+            else:
+                frequency[letter] = 1
     return frequency
 
 
@@ -12,12 +19,12 @@ def calculate_frequency(dictionary):
     letters_count = sum(dictionary.values())
     frequency = {}
     for value in dictionary:
-        frequency[value] = round(dictionary[value] / letters_count, ndigits=2)
-
+        frequency[value] = f"{dictionary[value] / letters_count:.2f}"
+    # return frequency
     result = list()
-    for item in frequency:
-        result.append(f'{item}: {frequency[item]}\n')
-
+    for key, item in frequency.items():
+        result.append(f'{key}: {item}\n')
+    result[-1] = result[-1][:-1]
     return ''.join(result)
 
 
@@ -57,5 +64,11 @@ main_str = """
 Свои мне сказки говорил.
 """
 
+t1 = time()
+print(calculate_frequency(count_letters(main_str*100)))
+print(time() - t1)  # 0.000997781753540039
+# dict_ = calculate_frequency(count_letters(main_str))
+# for key, value in dict_.items():
+#     print(f"{key}: {value}")
 
-print(calculate_frequency(count_letters(main_str)))
+
