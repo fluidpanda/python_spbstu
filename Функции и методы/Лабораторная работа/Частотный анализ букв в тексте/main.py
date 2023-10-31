@@ -1,7 +1,6 @@
 from time import time
 
 
-
 def count_letters(text):
     text = text.lower()
     frequency = {}
@@ -65,10 +64,8 @@ main_str = """
 """
 
 t1 = time()
-print(calculate_frequency(count_letters(main_str*100)))
+print(calculate_frequency(count_letters(main_str)))
 print(time() - t1)  # 0.000997781753540039
 # dict_ = calculate_frequency(count_letters(main_str))
 # for key, value in dict_.items():
 #     print(f"{key}: {value}")
-
-

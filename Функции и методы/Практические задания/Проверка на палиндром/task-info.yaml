@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def is_palindrome(str_):
           str_clear = ''.join(str_.lower().split())
@@ -76,7 +76,4 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:15:40 UTC"
 record: -1

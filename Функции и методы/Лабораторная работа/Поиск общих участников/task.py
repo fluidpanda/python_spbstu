@@ -3,6 +3,7 @@
 def find_common_participants(group_1, group_2, sep=','):
     group_1 = set(group_1.split(sep))
     group_2 = set(group_2.split(sep))
+
     common_participants = list(group_1.intersection(group_2))
 
     return sorted(common_participants)

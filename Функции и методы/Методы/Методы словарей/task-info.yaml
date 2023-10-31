@@ -21,7 +21,5 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  time: "Thu, 26 Oct 2023 15:20:11 UTC"
 record: -1
 post_submission_on_open: true
