@@ -11,19 +11,19 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_shortest_word(words: list[str]) -> str:
           return min(words, key=len)
-  - offset: 161
-    length: 40
+  - offset: 222
+    length: 66
     placeholder_text: "...  # TODO Найдите самое короткое слово"
     initial_state:
       length: 40
       offset: 161
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: get_shortest_word(words_list)
   text: |
     # TODO  Напишите функцию get_shortest_word
@@ -42,5 +42,8 @@ files:
   text: |
     kiwi
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 02 Nov 2023 17:18:17 UTC"
 record: -1

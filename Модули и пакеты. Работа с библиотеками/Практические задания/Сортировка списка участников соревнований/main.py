@@ -1,4 +1,6 @@
 # TODO Напишите функцию sort_participants
+def sort_participants(persons):
+    return sorted(persons, key=lambda func: func["name"])
 
 
 if __name__ == "__main__":

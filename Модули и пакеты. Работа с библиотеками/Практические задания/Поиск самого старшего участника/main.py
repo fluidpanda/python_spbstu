@@ -1,4 +1,6 @@
 # TODO Напишите функцию get_oldest_participant
+def get_oldest_participant(persons):
+    return max(persons, key=lambda func: func["age"])
 
 
 if __name__ == "__main__":
@@ -25,5 +27,5 @@ if __name__ == "__main__":
         },
     ]
 
-    oldest_participant = ...  # TODO Найдите самого старшего участника
+    oldest_participant = get_oldest_participant(participants_list)  # TODO Найдите самого старшего участника
     print(oldest_participant)
