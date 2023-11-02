@@ -1,6 +1,6 @@
 def convert_to_uppercase(colors: list[str]) -> list[str]:
     """Функция для преобразования каждого цвета в верхний регистр."""
-    return ...  # TODO Преобразовать цвета в верхний регистр
+    return [item.upper() for item in colors]  # TODO Преобразовать цвета в верхний регистр
 
 
 if __name__ == '__main__':

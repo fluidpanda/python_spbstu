@@ -1,7 +1,10 @@
 def is_lucky_number(num: int) -> bool:
     ...  # TODO проверить что число шестизначное и положительное
-
-    ...  # TODO проверить счастливое число или нет
+    if len(str(num)) != 6 and num < 0:
+        raise ValueError(f"Число {num} меньше нуля и не шестизначное")
+    # TODO проверить счастливое число или нет
+    array = [int(item) for item in str(num)]
+    return sum([item for item in array[:3]]) == sum([item for item in array[3:]])
 
 
 print(is_lucky_number(123321))

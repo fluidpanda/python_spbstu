@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 132
+    length: 58
     placeholder_text: |-
       # TODO реализовать функцию
       def get_unique_words():
@@ -13,7 +13,7 @@ files:
       length: 58
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def get_unique_words(str_words):
@@ -37,7 +37,4 @@ files:
     ['Возможно', 'Здесь', 'и', 'много', 'повторений.', 'разных', 'слов.']
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 26 Oct 2023 15:56:51 UTC"
 record: -1

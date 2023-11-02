@@ -18,15 +18,15 @@ files:
           all_ages = students.values()
           average = sum(all_ages) / len(all_ages)
           return average
-  - offset: 355
-    length: 122
+  - offset: 194
+    length: 94
     placeholder_text: "print(f\"Средний возраст студентов: {...)} лет\")  # TODO Р\
       аспечатайте средний возраст студентов"
     initial_state:
       length: 94
       offset: 194
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: "print(f\"Средний возраст студентов: {calculate_average_age(students_dict)}\"\
       )"
@@ -44,7 +44,4 @@ files:
     Средний возраст студентов: 34.4
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:19:27 UTC"
 record: -1

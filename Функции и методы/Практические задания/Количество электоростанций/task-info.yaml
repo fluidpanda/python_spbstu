@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 65
-    length: 86
+    length: 91
     placeholder_text: "...  # TODO Найдите количество электростанций, мощность кот\
       орых превышает заданное значение"
     initial_state:
       length: 91
       offset: 65
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       count = 0
@@ -20,8 +20,8 @@ files:
                   count += 1
 
           return count
-  - offset: 546
-    length: 108
+  - offset: 411
+    length: 55
     placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
     initial_state:
       length: 55
@@ -57,7 +57,4 @@ files:
     Количество электростанций, мощность которых превышает заданное значение: 2
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 26 Oct 2023 16:14:46 UTC"
 record: -1

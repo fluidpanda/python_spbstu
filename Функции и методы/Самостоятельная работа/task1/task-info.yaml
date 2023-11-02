@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 144
+    length: 59
     placeholder_text: |-
       # TODO реализовать функцию
       def remove_whitespace():
@@ -13,7 +13,7 @@ files:
       length: 59
       offset: 0
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       def remove_whitespace(str_):
@@ -45,7 +45,4 @@ files:
     print test11
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 15:14:39 UTC"
 record: -1

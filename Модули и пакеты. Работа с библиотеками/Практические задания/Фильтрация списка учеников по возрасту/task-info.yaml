@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def calculate_average_age(students: list[dict]) -> float:
           """Функция для вычисления среднего возраста учеников."""
@@ -26,7 +26,7 @@ files:
       offset: 48
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def filter_students_by_age(students: list[dict], filter_age: float) -> list[dict]:
           """Функция для фильтрации списка учеников по возрасту."""
@@ -42,7 +42,7 @@ files:
       offset: 582
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       average_age = calculate_average_age(students_list)
           print("Средний возраст учеников:", average_age)
@@ -58,7 +58,7 @@ files:
       offset: 711
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       filtered_students = filter_students_by_age(students_list, average_age)
           print("Список учеников с возрастом меньше среднего:")
@@ -213,7 +213,4 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 16:46:30 UTC"
 record: -1

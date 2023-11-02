@@ -4,14 +4,14 @@ files:
   visible: true
   placeholders:
   - offset: 79
-    length: 57
+    length: 62
     placeholder_text: "...  # TODO проверить что в строку входят только символы 1\
       \ и 0"
     initial_state:
       length: 62
       offset: 79
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       if not str_:
@@ -46,7 +46,4 @@ files:
     False
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 16:00:13 UTC"
 record: -1

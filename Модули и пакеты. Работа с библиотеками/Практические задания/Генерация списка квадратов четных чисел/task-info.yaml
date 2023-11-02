@@ -17,7 +17,7 @@ files:
       offset: 117
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: "return [i ** 2 for i in range(n+1) if i % 2 == 0]"
   text: |
     def generate_even_squares(n):
@@ -83,7 +83,4 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 16:28:01 UTC"
 record: -1

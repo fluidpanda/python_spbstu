@@ -1,6 +1,12 @@
 # TODO написать функцию index
-def index():
-    ...
+import typing
+
+
+def index(items, value_to_search):
+    list_index = [index for index, value in enumerate(items) if value == value_to_search]
+    if not list_index: raise ValueError("Значение не найдено")
+
+    return list_index
 
 
 if __name__ == '__main__':

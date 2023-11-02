@@ -11,7 +11,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def get_student_names(students: list[dict]) -> list[str]:
           """Функция для извлечения списка имен учеников из списка словарей с информацией о них."""
@@ -24,7 +24,7 @@ files:
       offset: 493
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: print(get_student_names(students_list))
   text: |
     # TODO Напишите функцию get_student_names
@@ -123,7 +123,4 @@ files:
   visible: false
   learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Thu, 02 Nov 2023 16:37:17 UTC"
 record: -1
