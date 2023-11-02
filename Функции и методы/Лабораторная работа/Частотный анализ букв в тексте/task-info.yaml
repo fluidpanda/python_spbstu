@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 1881
+  - offset: 24
     length: 0
     placeholder_text: '# TODO  Напишите функцию count_letters'
     initial_state:
@@ -24,8 +24,8 @@ files:
                   else:
                       letter_count[char] = 1
           return letter_count
-  - offset: 1881
-    length: 0
+  - offset: 346
+    length: 1
     placeholder_text: '# TODO Напишите функцию calculate_frequency'
     initial_state:
       length: 43
@@ -37,14 +37,14 @@ files:
       \ = sum(letter_count.values())\n    \n    letter_frequency = {}\n    for current_letter,\
       \ count in letter_count.items():\n        letter_frequency[current_letter] =\
       \ count / total_letters\n        \n    return letter_frequency"
-  - offset: 1881
-    length: 0
+  - offset: 1758
+    length: 96
     placeholder_text: '# TODO Распечатайте в столбик букву и её частоту в тексте'
     initial_state:
       length: 57
       offset: 999
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       count_dict = count_letters(main_str)
@@ -135,5 +135,8 @@ files:
     щ: 0.00
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 18:25:54 UTC"
 record: -1
 solution_hidden: true

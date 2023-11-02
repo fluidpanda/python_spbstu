@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 49
+    length: 73
     placeholder_text: '# TODO Напишите функцию для поиска индекса товара'
     initial_state:
       length: 49
@@ -17,14 +17,14 @@ files:
           for index, current_item in enumerate(items):
               if current_item == item:
                   return index
-  - offset: 188
-    length: 56
+  - offset: 381
+    length: 88
     placeholder_text: "...  # TODO Вызовите функцию, что получить индекс товара"
     initial_state:
       length: 56
       offset: 188
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: "find_item_index(items_list, find_item)"
   text: |
@@ -51,5 +51,8 @@ files:
     Товар 'персик' не найден в списке.
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 16:51:07 UTC"
 record: -1
 solution_hidden: true

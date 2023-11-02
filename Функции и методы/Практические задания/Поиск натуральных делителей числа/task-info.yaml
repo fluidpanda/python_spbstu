@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 42
-    length: 49
+    length: 44
     placeholder_text: "...  # TODO Найдите список делителей числа number"
     initial_state:
       length: 49
       offset: 42
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: |-
       list_divisors = []
@@ -37,4 +37,7 @@ files:
     [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 8192, 16384, 32768, 65536]
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 16:14:36 UTC"
 record: -1

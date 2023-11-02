@@ -40,4 +40,7 @@ files:
     print(list_numbers)  # Ответ [2, 90, -2, 8, -36, -44, -1, -85, -14, 25, -22, -90, -100, -8, 38, -92, -45, 67, 53, 90]
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 15:11:40 UTC"
 record: -1

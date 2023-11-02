@@ -22,8 +22,8 @@ files:
               result *= num
 
           return result
-  - offset: 38
-    length: 139
+  - offset: 146
+    length: 157
     placeholder_text: "# TODO Вызовите функцию factorial и распечатайте результат\
       \ \nprint(f\"Факториал числа 0 равен {...}\")\nprint(f\"Факториал числа 5 ра\
       вен {...}\")"
@@ -50,4 +50,7 @@ files:
     Факториал числа 5 равен 120
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 15:46:05 UTC"
 record: -1

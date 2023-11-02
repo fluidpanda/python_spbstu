@@ -16,7 +16,7 @@ files:
       def multiply_numbers(a, b):
           product = a * b
           return product
-  - offset: 45
+  - offset: 182
     length: 95
     placeholder_text: '# TODO Перемножте с помощью функции `multiply_numbers` при
       пары чисел и распечатайте результаты'
@@ -51,4 +51,7 @@ files:
     42
   learner_created: false
 status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 26 Oct 2023 15:14:50 UTC"
 record: -1
