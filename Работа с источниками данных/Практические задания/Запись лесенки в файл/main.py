@@ -4,8 +4,10 @@ INPUT_FILE = "input.txt"
 OUTPUT_FILE = "output.txt"
 
 
-def task():
-    ...  # TODO построчно записать лесенку в файл
+def task(n=10):
+    with open(OUTPUT_FILE, "wt", encoding="utf-8") as file:
+        for stair in range(1, n + 1):
+            file.write(f'{"*" * stair}\n')
 
 
 if __name__ == '__main__':

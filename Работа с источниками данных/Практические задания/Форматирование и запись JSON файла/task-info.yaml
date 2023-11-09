@@ -3,27 +3,27 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 93
-    length: 68
+  - offset: 336
+    length: 0
     placeholder_text: "...  # TODO Десериализуйте содержимое файла из переменной INPUT_FILE"
     initial_state:
       length: 68
       offset: 93
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(INPUT_FILE, encoding="utf-8") as f:
               json_data = json.load(f)
-  - offset: 167
-    length: 67
+  - offset: 337
+    length: 0
     placeholder_text: "...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE"
     initial_state:
       length: 67
       offset: 167
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
               json.dump(json_data, f, indent=4, ensure_ascii=False)
@@ -120,5 +120,11 @@ files:
 - name: input.json
   visible: true
   learner_created: false
-status: Unchecked
+- name: output.json
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 09 Nov 2023 16:53:44 UTC"
 record: -1

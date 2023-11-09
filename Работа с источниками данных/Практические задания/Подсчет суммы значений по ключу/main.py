@@ -5,9 +5,12 @@ FILENAME = "input.json"
 
 
 def task() -> int:
-    ...  # TODO Десериализуйте содержимое JSON файла
+    with open(FILENAME, "rt", encoding="utf-8") as file:
+        data_from_json = json.load(file)
 
-    ...  # TODO Просуммируйте все значения по ключу contains_improvement_appeals
+    items = [item["contains_improvement_appeals"] for item in data_from_json]
+
+    return sum(items)
 
 
 if __name__ == '__main__':

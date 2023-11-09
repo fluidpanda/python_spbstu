@@ -9,7 +9,7 @@ data = [  # Данные для CSV файла
 ]
 
 # Открытие файла для записи
-with open(filename, 'w') as file:
+with open(filename, 'w', encoding="utf-8") as file:
     writer = csv.writer(file)
 
     # Запись заголовка

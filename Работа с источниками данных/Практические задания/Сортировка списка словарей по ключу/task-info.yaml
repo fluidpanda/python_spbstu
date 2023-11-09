@@ -4,13 +4,13 @@ files:
   visible: true
   placeholders:
   - offset: 134
-    length: 51
+    length: 61
     placeholder_text: "...  # TODO отсортировать и вернуть список словарей"
     initial_state:
       length: 51
       offset: 134
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: "return sorted(json_data, key=lambda item: item[\"\
       id\"])"
