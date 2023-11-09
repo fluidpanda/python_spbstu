@@ -5,10 +5,13 @@ FILENAME = "input.json"
 
 
 def task() -> list[dict]:
-    with open(FILENAME) as f:
+    with open(FILENAME, encoding="utf-8") as f:
         json_data = json.load(f)
 
-    ...  # TODO отсортировать и вернуть список словарей
+    def func(x):
+        return x["id"]
+
+    return sorted(json_data, key=func)
 
 
 if __name__ == '__main__':
