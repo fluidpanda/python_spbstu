@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 168
+    length: 179
     placeholder_text: |-
       # TODO решите задачу
       def task() -> float:
