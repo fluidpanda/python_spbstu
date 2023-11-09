@@ -30,6 +30,14 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: output.json
+  visible: true
+  learner_created: true
+- name: output.csv
+  visible: true
+  learner_created: true
 status: Solved
+feedback:
+  time: "Thu, 09 Nov 2023 16:18:30 UTC"
 record: -1
 post_submission_on_open: true
