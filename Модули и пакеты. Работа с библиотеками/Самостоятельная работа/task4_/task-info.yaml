@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 0
-    length: 52
+    length: 349
     placeholder_text: |-
       # TODO написать функцию remove
       def remove():
@@ -13,8 +13,8 @@ files:
       length: 52
       offset: 0
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       from typing import Any
 
@@ -49,5 +49,8 @@ files:
     [1, 2]
     [0, 1, 2, 3]
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 09 Nov 2023 16:03:49 UTC"
 record: -1

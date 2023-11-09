@@ -3,15 +3,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 331
-    length: 57
+  - offset: 26
+    length: 0
     placeholder_text: "...  # TODO подсчитать количество выпаданий орлов и решек"
     initial_state:
       length: 57
       offset: 331
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       eagle_count = 0
           tails_count = 0
@@ -22,16 +22,16 @@ files:
                   eagle_count += 1
               else:
                   tails_count += 1
-  - offset: 394
-    length: 98
+  - offset: 27
+    length: 0
     placeholder_text: '# TODO разделить минимальное число среди орлов и решек на максимальное
       число и сохранить результат'
     initial_state:
       length: 98
       offset: 394
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       freq = min(eagle_count, tails_count) / max(eagle_count, tails_count)
           list_freq.append(freq)
@@ -56,6 +56,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: "Thu, 09 Nov 2023 15:33:28 UTC"
 record: -1
 post_submission_on_open: true

@@ -19,7 +19,7 @@ files:
       offset: 0
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       def get_nearest_shop(shop_points: list[tuple]) -> tuple:
           return min(shop_points, key=lambda shop_point: (shop_point[0] ** 2 + shop_point[1] ** 2) ** 0.5)
