@@ -3,7 +3,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 540
+  - offset: 593
     length: 0
     placeholder_text: '# TODO импортировать необходимые молули'
     initial_state:
@@ -15,7 +15,7 @@ files:
     encrypted_possible_answer: |-
       import csv
       import json
-  - offset: 540
+  - offset: 593
     length: 0
     placeholder_text: "...  # TODO считать содержимое csv файла"
     initial_state:
@@ -27,7 +27,7 @@ files:
     encrypted_possible_answer: |-
       with open(INPUT_FILENAME) as f:
               lines = [line for line in csv.DictReader(f)]
-  - offset: 540
+  - offset: 593
     length: 0
     placeholder_text: "...  # TODO Сериализовать в файл с отступами равными 4"
     initial_state:

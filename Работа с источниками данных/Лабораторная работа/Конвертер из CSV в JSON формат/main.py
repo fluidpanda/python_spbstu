@@ -6,11 +6,13 @@ OUTPUT_FILENAME = "output.json"
 
 
 def task() -> None:
-    with open(INPUT_FILENAME, encoding="cp1251") as file_input:
-        data_from_cvs = [item for item in csv.DictReader(file_input)]
+    with open(INPUT_FILENAME, encoding="utf-8") as file_input:
+        data_from_csv: list = list()
+        for item in csv.DictReader(file_input):
+            data_from_csv.append(item)
 
     with open(OUTPUT_FILENAME, "wt", encoding="utf-8") as file_output:
-        json.dump(data_from_cvs, file_output, indent=4)
+        json.dump(data_from_csv, file_output, indent=4)
 
 
 if __name__ == '__main__':
