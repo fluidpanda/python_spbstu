@@ -3,7 +3,15 @@ import os
 OUTPUT_FILE = "output.csv"
 
 
-# TODO реализовать функцию to_csv_file
+def convert_to_csv(filename, headers, rows, delimiter=",", new_line="\n"):
+    with open(filename, "wt", encoding="utf-8") as file:
+        file.write(delimiter.join(headers))
+        file.write(new_line)
+
+        for item in rows:
+            new_row = [str(value) for value in item]
+            file.write(delimiter.join(new_row))
+            file.write(new_line)
 
 
 if __name__ == '__main__':
@@ -16,10 +24,11 @@ if __name__ == '__main__':
         ['-118.360000', '33.820000', '28.000000', '67.000000', '15.000000', '49.000000', '11.000000', '6.135900', '330000.000000'],
     ]
 
-    # TODO Вызовете функцию to_csv_file и запишите данные в файл
+    convert_to_csv(OUTPUT_FILE, headers_list, data)
 
     # Нужно для проверки задания
     if os.path.exists(OUTPUT_FILE):
         with open(OUTPUT_FILE) as output_f:
             for line in output_f:
                 print(line, end="")
+

@@ -6,15 +6,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 40
-    length: 38
+  - offset: 1405
+    length: 0
     placeholder_text: '# TODO реализовать функцию to_csv_file'
     initial_state:
       length: 38
       offset: 40
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       def to_csv_file(filename, headers, rows, delimiter=",", new_line="\n"):
           with open(filename, 'w') as file:
@@ -27,15 +27,15 @@ files:
                   formatted_row = [str(value) for value in row]
                   file.write(delimiter.join(formatted_row))
                   file.write(new_line)
-  - offset: 845
-    length: 60
+  - offset: 1405
+    length: 0
     placeholder_text: '# TODO Вызовете функцию to_csv_file и запишите данные в файл'
     initial_state:
       length: 60
       offset: 845
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: "to_csv_file(OUTPUT_FILE, headers_list, data)"
   text: |
     import os
@@ -73,5 +73,11 @@ files:
     -117.810000,33.780000,27.000000,3589.000000,507.000000,1484.000000,495.000000,5.793400,270500.000000
     -118.360000,33.820000,28.000000,67.000000,15.000000,49.000000,11.000000,6.135900,330000.000000
   learner_created: false
-status: Unchecked
+- name: output.csv
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 15 Nov 2023 16:01:53 UTC"
 record: -1
