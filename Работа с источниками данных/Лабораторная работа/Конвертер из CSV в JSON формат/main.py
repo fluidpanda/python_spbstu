@@ -1,20 +1,21 @@
-# TODO импортировать необходимые молули
-
+import csv
+import json
 
 INPUT_FILENAME = "input.csv"
 OUTPUT_FILENAME = "output.json"
 
 
 def task() -> None:
-    ...  # TODO считать содержимое csv файла
+    with open(INPUT_FILENAME, encoding="cp1251") as file_input:
+        data_from_cvs = [item for item in csv.DictReader(file_input)]
 
-    ...  # TODO Сериализовать в файл с отступами равными 4
+    with open(OUTPUT_FILENAME, "wt", encoding="utf-8") as file_output:
+        json.dump(data_from_cvs, file_output, indent=4)
 
 
 if __name__ == '__main__':
-    # Нужно для проверки
     task()
 
-    with open(OUTPUT_FILENAME) as output_f:
+    with open(OUTPUT_FILENAME, "rt", encoding="utf-8") as output_f:
         for line in output_f:
             print(line, end="")
