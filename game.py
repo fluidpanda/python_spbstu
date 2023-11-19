@@ -42,17 +42,19 @@ def main() -> None:
     game_over_state: bool = False
 
     while not game_over_state:
-        print_board()
-
         try:
+            print_board()
             position: int = int(input(f"Игрок {current_player}, введите позицию, цифру от 1 до 9: ")) - 1
+
+            if position < 0:
+                raise ValueError
 
             if BOARD[position] == " ":
                 BOARD[position] = current_player
 
                 if win_logic(current_player):
                     print_board()
-                    print(f"Игрок {current_player} выиграл")
+                    print(f"Игрок {current_player} выиграл.")
                     game_over_state = True
 
                 elif " " not in BOARD:
@@ -67,10 +69,7 @@ def main() -> None:
                 print("Позиция занята. Введите позицию еще раз.")
 
         except (ValueError, IndexError):
-            print("Вы ввели не цифру от 1 до 9!")
-
-        finally:
-            clear_screen()
+            print(f"Вы ввели не цифру от 1 до 9!")
 
 
 if __name__ == "__main__":
