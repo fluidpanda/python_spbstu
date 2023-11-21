@@ -68,12 +68,12 @@ def main() -> None:
                     current_player = "O" if current_player == "X" else "X"
 
             else:
-                print("Позиция занята. Введите позицию еще раз.")
+                clear_screen()
+                input("Позиция занята. Введите позицию еще раз.")
 
         except (ValueError, IndexError):
             clear_screen()
-            print(f"Вы ввели не цифру от 1 до 9!")
-            input()
+            input(f"Вы ввели не цифру от 1 до 9! ")
 
 
 if __name__ == "__main__":
