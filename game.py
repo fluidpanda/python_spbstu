@@ -15,7 +15,7 @@ def print_board():
 
 
 def clear_screen() -> None:
-    _ = os.system("clear" if os.name == "posix" else "cls")
+    _: int = os.system("clear" if os.name == "posix" else "cls")
 
 
 def win_logic(player: Any) -> bool:
@@ -50,26 +50,28 @@ def main() -> None:
                 raise ValueError
 
             if BOARD[position] == " ":
-                BOARD[position] = current_player
+                BOARD[position]: list = current_player
 
                 if win_logic(current_player):
                     clear_screen()
                     print_board()
                     print(f"Игрок {current_player} выиграл.")
-                    game_over_state = True
+                    game_over_state: bool = True
 
                 elif " " not in BOARD:
                     clear_screen()
                     print_board()
                     print("Ничья.")
-                    game_over_state = True
+                    game_over_state: bool = True
 
                 else:
-                    current_player = "O" if current_player == "X" else "X"
+                    current_player: str = "O" if current_player == "X" else "X"
 
             else:
                 clear_screen()
-                input("Позиция занята. Введите позицию еще раз.")
+                input(
+                    f"Позиция занята игроком {'O' if current_player == 'X' else 'X'}. "
+                    f"Введите позицию еще раз. ")
 
         except (ValueError, IndexError):
             clear_screen()
