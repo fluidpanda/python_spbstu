@@ -69,9 +69,7 @@ def main() -> None:
 
             else:
                 clear_screen()
-                input(
-                    f"Позиция занята игроком {'O' if current_player == 'X' else 'X'}. "
-                    f"Введите позицию еще раз. ")
+                input(f"Позиция занята. Введите позицию еще раз. ")
 
         except (ValueError, IndexError):
             clear_screen()
