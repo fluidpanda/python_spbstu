@@ -1,7 +1,8 @@
 import os
 from typing import Any
 
-BOARD: list = [" " for item in range(0, 9)]
+EMPTY = " "
+BOARD: list = [EMPTY for item in range(0, 9)]
 
 
 def print_board():
@@ -39,17 +40,20 @@ def win_logic(player: Any) -> bool:
 def main() -> None:
     current_player: str = "X"
     game_over_state: bool = False
+    error = None
 
     while not game_over_state:
         try:
             clear_screen()
             print_board()
+            if error:
+                print(error)
             position: int = int(input(f"Игрок {current_player}, введите позицию, цифру от 1 до 9: ")) - 1
 
             if position < 0:
                 raise ValueError
 
-            if BOARD[position] == " ":
+            if BOARD[position] == EMPTY:
                 BOARD[position]: list = current_player
 
                 if win_logic(current_player):
@@ -58,7 +62,7 @@ def main() -> None:
                     print(f"Игрок {current_player} выиграл.")
                     game_over_state: bool = True
 
-                elif " " not in BOARD:
+                elif EMPTY not in BOARD:
                     clear_screen()
                     print_board()
                     print("Ничья.")
@@ -68,12 +72,13 @@ def main() -> None:
                     current_player: str = "O" if current_player == "X" else "X"
 
             else:
-                clear_screen()
-                input(f"Позиция занята. Введите позицию еще раз. ")
+                error = "Позиция занята. Введите позицию еще раз."
+                continue
 
         except (ValueError, IndexError):
-            clear_screen()
-            input(f"Вы ввели не цифру от 1 до 9! ")
+            error = "Вы ввели не цифру от 1 до 9!"
+        else:
+            error = None
 
 
 if __name__ == "__main__":
