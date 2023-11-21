@@ -1,6 +1,5 @@
 import os
 from typing import Any
-from subprocess import call
 
 BOARD: list = [" " for item in range(0, 9)]
 
@@ -16,7 +15,7 @@ def print_board():
 
 
 def clear_screen() -> None:
-    _ = call("clear" if os.name == "posix" else "cls")
+    _ = os.system("clear" if os.name == "posix" else "cls")
 
 
 def win_logic(player: Any) -> bool:
@@ -43,6 +42,7 @@ def main() -> None:
 
     while not game_over_state:
         try:
+            clear_screen()
             print_board()
             position: int = int(input(f"Игрок {current_player}, введите позицию, цифру от 1 до 9: ")) - 1
 
@@ -53,11 +53,13 @@ def main() -> None:
                 BOARD[position] = current_player
 
                 if win_logic(current_player):
+                    clear_screen()
                     print_board()
                     print(f"Игрок {current_player} выиграл.")
                     game_over_state = True
 
                 elif " " not in BOARD:
+                    clear_screen()
                     print_board()
                     print("Ничья")
                     game_over_state = True
@@ -69,7 +71,9 @@ def main() -> None:
                 print("Позиция занята. Введите позицию еще раз.")
 
         except (ValueError, IndexError):
+            clear_screen()
             print(f"Вы ввели не цифру от 1 до 9!")
+            input()
 
 
 if __name__ == "__main__":
