@@ -61,7 +61,7 @@ def main() -> None:
                 elif " " not in BOARD:
                     clear_screen()
                     print_board()
-                    print("Ничья")
+                    print("Ничья.")
                     game_over_state = True
 
                 else:
